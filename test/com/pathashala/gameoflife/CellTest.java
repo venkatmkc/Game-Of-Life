@@ -6,14 +6,6 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CellTest {
-    @Test
-    public void numberOfNeighboursShouldBeZeroWhenThereAreNoNeighbours() {
-        Cell cell = new Cell(1, 2);
-
-        int actualNumberOfNeighbours = cell.numberOfNeighbours();
-
-        assertThat(actualNumberOfNeighbours, is(equalTo(0)));
-    }
 
     @Test
     public void reflexivityTestShouldBePassed() {
@@ -49,7 +41,7 @@ public class CellTest {
     public void equalCellsShouldHaveEqualHashCode() {
         Cell cellOne = new Cell(1, 3);
         Cell cellTwo = new Cell(1, 3);
-        
+
         assertThat(cellOne.hashCode(), is(equalTo(cellTwo.hashCode())));
     }
 }

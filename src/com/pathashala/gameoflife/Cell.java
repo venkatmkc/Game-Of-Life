@@ -8,10 +8,6 @@ public class Cell {
         this.column = column;
     }
 
-    public int numberOfNeighbours() {
-        return 0;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o)
