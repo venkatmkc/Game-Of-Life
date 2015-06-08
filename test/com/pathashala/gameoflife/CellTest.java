@@ -28,4 +28,12 @@ public class CellTest {
 
         assertThat(actualCell, is(not(equalTo(null))));
     }
+
+    @Test
+    public void comparingOtherTypeObjectsShouldBeSupported() {
+        Cell actualCell = new Cell(1, 2);
+        Object five = new Integer(5);
+
+        assertThat(actualCell, is(not(equalTo(five))));
+    }
 }
