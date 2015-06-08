@@ -26,8 +26,8 @@
       <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/pathashala/gameoflife/CellTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85066164">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.91493386">
+              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/pathashala/gameoflife/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -232,33 +232,7 @@
       <recent name="com.pathashala.gameoflife" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CellTest">
-    <configuration default="false" name="CellTest.numberOfNeighboursShouldBeZeroWhenThereAreNoNeighBours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pathashala.gameoflife.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Game" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pathashala.gameoflife" />
-      <option name="MAIN_CLASS_NAME" value="com.pathashala.gameoflife.CellTest" />
-      <option name="METHOD_NAME" value="numberOfNeighboursShouldBeZeroWhenThereAreNoNeighBours" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CellTest.equalityShouldBeSatisfied">
     <configuration default="false" name="CellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -350,6 +324,32 @@
       <option name="PACKAGE_NAME" value="com.pathashala.gameoflife" />
       <option name="MAIN_CLASS_NAME" value="com.pathashala.gameoflife.CellTest" />
       <option name="METHOD_NAME" value="comparingOtherTypeObjectsShouldBeSupported" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CellTest.equalityShouldBeSatisfied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pathashala.gameoflife.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Game" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pathashala.gameoflife" />
+      <option name="MAIN_CLASS_NAME" value="com.pathashala.gameoflife.CellTest" />
+      <option name="METHOD_NAME" value="equalityShouldBeSatisfied" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -613,19 +613,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest.numberOfNeighboursShouldBeZeroWhenThereAreNoNeighBours" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.reflexivityTestShouldBePassed" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.comparingNullObjectsShouldBeSupported" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.comparingOtherTypeObjectsShouldBeSupported" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.reflexivityTestShouldBePassed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.comparingNullObjectsShouldBeSupported" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.comparingOtherTypeObjectsShouldBeSupported" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.equalityShouldBeSatisfied" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.comparingOtherTypeObjectsShouldBeSupported" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.comparingNullObjectsShouldBeSupported" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.reflexivityTestShouldBePassed" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.numberOfNeighboursShouldBeZeroWhenThereAreNoNeighBours" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest.equalityShouldBeSatisfied" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.comparingOtherTypeObjectsShouldBeSupported" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.comparingNullObjectsShouldBeSupported" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.reflexivityTestShouldBePassed" />
       </list>
     </recent_temporary>
   </component>
@@ -637,12 +637,12 @@
       <option name="number" value="Default" />
       <updated>1433742638309</updated>
       <workItem from="1433742642184" duration="936000" />
-      <workItem from="1433744731606" duration="549000" />
+      <workItem from="1433744731606" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1485000" />
+    <option name="totallyTimeSpent" value="1639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="42" width="1400" height="900" extended-state="0" />
@@ -708,17 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pathashala/gameoflife/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9432892">
@@ -727,10 +716,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pathashala/gameoflife/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/pathashala/gameoflife/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85066164">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.91493386">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -7,7 +7,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CellTest {
     @Test
-    public void numberOfNeighboursShouldBeZeroWhenThereAreNoNeighBours() {
+    public void numberOfNeighboursShouldBeZeroWhenThereAreNoNeighbours() {
         Cell cell = new Cell(1, 2);
 
         int actualNumberOfNeighbours = cell.numberOfNeighbours();
@@ -35,5 +35,13 @@ public class CellTest {
         Object five = new Integer(5);
 
         assertThat(actualCell, is(not(equalTo(five))));
+    }
+
+    @Test
+    public void equalityShouldBeSatisfied() {
+        Cell cellOne = new Cell(1, 2);
+        Cell cellTwo = new Cell(1, 2);
+
+        assertThat(cellOne, is(equalTo(cellTwo)));
     }
 }
