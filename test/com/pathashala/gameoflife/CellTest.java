@@ -22,4 +22,10 @@ public class CellTest {
         assertThat(actualCell, is(equalTo(actualCell)));
     }
 
+    @Test
+    public void comparingNullObjectsShouldBeSupported() {
+        Cell actualCell = new Cell(1, 2);
+
+        assertThat(actualCell, is(not(equalTo(null))));
+    }
 }
