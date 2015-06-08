@@ -15,4 +15,11 @@ public class CellTest {
         assertThat(actualNumberOfNeighbours, is(equalTo(0)));
     }
 
+    @Test
+    public void reflexivityTestShouldBePassed() {
+        Cell actualCell = new Cell(1, 2);
+
+        assertThat(actualCell, is(equalTo(actualCell)));
+    }
+
 }
