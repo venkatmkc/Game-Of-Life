@@ -44,4 +44,12 @@ public class CellTest {
 
         assertThat(cellOne, is(equalTo(cellTwo)));
     }
+
+    @Test
+    public void equalCellsShouldHaveEqualHashCode() {
+        Cell cellOne = new Cell(1, 3);
+        Cell cellTwo = new Cell(1, 3);
+        
+        assertThat(cellOne.hashCode(), is(equalTo(cellTwo.hashCode())));
+    }
 }
