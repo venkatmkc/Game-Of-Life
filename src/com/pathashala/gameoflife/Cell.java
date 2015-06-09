@@ -17,9 +17,7 @@ public class Cell {
 
         Cell cell = (Cell) o;
 
-        if (row != cell.row)
-            return false;
-        return column == cell.column;
+        return row == cell.row && column == cell.column;
 
     }
 
